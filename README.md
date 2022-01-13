@@ -1,4 +1,4 @@
-# airflow-fastapi-dynamodb-basic
+# basic airflow
 
 This is my combination of airflow, fastapi and dynamodb
 
@@ -22,8 +22,13 @@ airflowl scheduler
 -> Run uvicorn for fastapi\
 uvicorn app.main:app --reload (http://localhost:8000/)
 
+-> Create a user at http://localhost:8000/docs/, this will return an api at http://localhost:8000/users/your-user\
+Example: http://localhost:8000/users/VuNgocLong
+
 -> Uncomment create table function in app/db/utils.py to create a TestTable in DynamoDB then run below command\
 python app/db/utils.py
+
+-> Inside dags/my_dag, change end_point in each operator user/GiangHoaTran into your user you created
 
 -> If you want to test a task inside my_dag (example: is_api_available)\
 airflow tasks test my_dag is_api_available 2022-01-01
