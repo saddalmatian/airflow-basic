@@ -1,0 +1,37 @@
+[2022-01-13 12:27:28,615] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: my_dag.extracting_user scheduled__2022-01-12T04:34:30.714488+00:00 [queued]>
+[2022-01-13 12:27:28,620] {taskinstance.py:1032} INFO - Dependencies all met for <TaskInstance: my_dag.extracting_user scheduled__2022-01-12T04:34:30.714488+00:00 [queued]>
+[2022-01-13 12:27:28,620] {taskinstance.py:1238} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-13 12:27:28,620] {taskinstance.py:1239} INFO - Starting attempt 3 of 3
+[2022-01-13 12:27:28,620] {taskinstance.py:1240} INFO - 
+--------------------------------------------------------------------------------
+[2022-01-13 12:27:28,640] {taskinstance.py:1259} INFO - Executing <Task(SimpleHttpOperator): extracting_user> on 2022-01-12 04:34:30.714488+00:00
+[2022-01-13 12:27:28,642] {standard_task_runner.py:52} INFO - Started process 25558 to run task
+[2022-01-13 12:27:28,644] {standard_task_runner.py:76} INFO - Running: ['airflow', 'tasks', 'run', 'my_dag', 'extracting_user', 'scheduled__2022-01-12T04:34:30.714488+00:00', '--job-id', '11', '--raw', '--subdir', 'DAGS_FOLDER/my_dag.py', '--cfg-path', '/tmp/tmp8kv7y9e_', '--error-file', '/tmp/tmpz7ck83pt']
+[2022-01-13 12:27:28,644] {standard_task_runner.py:77} INFO - Job 11: Subtask extracting_user
+[2022-01-13 12:27:28,671] {logging_mixin.py:109} INFO - Running <TaskInstance: my_dag.extracting_user scheduled__2022-01-12T04:34:30.714488+00:00 [running]> on host gianghoatran-Vostro-3591
+[2022-01-13 12:27:28,715] {taskinstance.py:1424} INFO - Exporting the following env vars:
+AIRFLOW_CTX_DAG_OWNER=airflow
+AIRFLOW_CTX_DAG_ID=my_dag
+AIRFLOW_CTX_TASK_ID=extracting_user
+AIRFLOW_CTX_EXECUTION_DATE=2022-01-12T04:34:30.714488+00:00
+AIRFLOW_CTX_DAG_RUN_ID=scheduled__2022-01-12T04:34:30.714488+00:00
+[2022-01-13 12:27:28,715] {http.py:111} INFO - Calling HTTP method
+[2022-01-13 12:27:28,720] {base.py:70} INFO - Using connection to: id: user_api. Host: http://127.0.0.1:8000/, Port: None, Schema: , Login: , Password: None, extra: {}
+[2022-01-13 12:27:28,721] {http.py:140} INFO - Sending 'GET' to url: http://127.0.0.1:8000/user/GiangHoaTran
+[2022-01-13 12:27:28,786] {http.py:115} INFO - {"SK":"ACCOUNT#GiangHoaTran","PK":"ACCOUNT#GiangHoaTran","Type":"User","Username":"GiangHoaTran","CreatedAt":"13-01-2022 11-00-08"}
+[2022-01-13 12:27:28,791] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_start' or 'logical_date' instead.
+[2022-01-13 12:27:28,791] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds }}' instead.
+[2022-01-13 12:27:28,792] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_ds_nodash' from the template is deprecated and will be removed in a future version. Please use '{{ data_interval_end | ds_nodash }}' instead.
+[2022-01-13 12:27:28,792] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'next_execution_date' from the template is deprecated and will be removed in a future version. Please use 'data_interval_end' instead.
+[2022-01-13 12:27:28,793] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,793] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,793] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,794] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'prev_execution_date_success' from the template is deprecated and will be removed in a future version. Please use 'prev_data_interval_start_success' instead.
+[2022-01-13 12:27:28,794] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,795] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'tomorrow_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,795] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,796] {logging_mixin.py:109} WARNING - /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/context.py:152 AirflowContextDeprecationWarning: Accessing 'yesterday_ds_nodash' from the template is deprecated and will be removed in a future version.
+[2022-01-13 12:27:28,812] {taskinstance.py:1267} INFO - Marking task as SUCCESS. dag_id=my_dag, task_id=extracting_user, execution_date=20220112T043430, start_date=20220113T052728, end_date=20220113T052728
+[2022-01-13 12:27:28,856] {local_task_job.py:154} INFO - Task exited with return code 0
+[2022-01-13 12:27:28,888] {local_task_job.py:264} INFO - 1 downstream tasks scheduled from follow-on schedule check

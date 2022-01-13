@@ -1,0 +1,69 @@
+Terminating on signal 15
+Traceback (most recent call last):
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlite3.OperationalError: no such table: job
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "/home/gianghoatran/MyCode/airflow/env/bin/airflow", line 8, in <module>
+    sys.exit(main())
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/__main__.py", line 48, in main
+    args.func(args)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/cli/cli_parser.py", line 48, in command
+    return func(*args, **kwargs)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/utils/cli.py", line 92, in wrapper
+    return f(*args, **kwargs)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/cli/commands/scheduler_command.py", line 70, in scheduler
+    _run_scheduler_job(args=args)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/cli/commands/scheduler_command.py", line 46, in _run_scheduler_job
+    job.run()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/jobs/base_job.py", line 241, in run
+    session.commit()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 1046, in commit
+    self.transaction.commit()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 504, in commit
+    self._prepare_impl()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 483, in _prepare_impl
+    self.session.flush()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2540, in flush
+    self._flush(objects)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2682, in _flush
+    transaction.rollback(_capture_exception=True)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/util/langhelpers.py", line 68, in __exit__
+    compat.raise_(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/session.py", line 2642, in _flush
+    flush_context.execute()
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 422, in execute
+    rec.execute(self)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/unitofwork.py", line 586, in execute
+    persistence.save_obj(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 239, in save_obj
+    _emit_insert_statements(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/orm/persistence.py", line 1135, in _emit_insert_statements
+    result = cached_connections[connection].execute(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1011, in execute
+    return meth(self, multiparams, params)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/sql/elements.py", line 298, in _execute_on_connection
+    return connection._execute_clauseelement(self, multiparams, params)
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1124, in _execute_clauseelement
+    ret = self._execute_context(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1316, in _execute_context
+    self._handle_dbapi_exception(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1510, in _handle_dbapi_exception
+    util.raise_(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/util/compat.py", line 182, in raise_
+    raise exception
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/base.py", line 1276, in _execute_context
+    self.dialect.do_execute(
+  File "/home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/sqlalchemy/engine/default.py", line 608, in do_execute
+    cursor.execute(statement, parameters)
+sqlalchemy.exc.OperationalError: (sqlite3.OperationalError) no such table: job
+[SQL: INSERT INTO job (dag_id, state, job_type, start_date, end_date, latest_heartbeat, executor_class, hostname, unixname) VALUES (?, ?, ?, ?, ?, ?, ?, ?, ?)]
+[parameters: (None, <TaskInstanceState.RUNNING: 'running'>, 'SchedulerJob', '2022-01-13 04:16:35.267632', None, '2022-01-13 04:16:35.267647', 'SequentialExecutor', 'gianghoatran-Vostro-3591', 'gianghoatran')]
+(Background on this error at: http://sqlalche.me/e/13/e3q8)
