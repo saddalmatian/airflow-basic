@@ -7037,3 +7037,5 @@ File Path                                                                       
 /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_external_task_marker_dag.py                                  2           0  0.10s           2022-01-13T05:37:15
 /home/gianghoatran/MyCode/airflow/env/lib/python3.8/site-packages/airflow/example_dags/example_subdag_operator.py                                           3           0  0.10s           2022-01-13T05:37:13
 ================================================================================
+[2022-01-13 12:37:28,271] {manager.py:1065} INFO - Finding 'running' jobs without a recent heartbeat
+[2022-01-13 12:37:28,272] {manager.py:1069} INFO - Failing jobs without heartbeat after 2022-01-13 05:32:28.272106+00:00
