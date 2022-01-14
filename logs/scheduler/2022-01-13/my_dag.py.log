@@ -949,3 +949,213 @@ SyntaxError: invalid syntax
 [2022-01-13 12:37:41,675] {logging_mixin.py:109} INFO - [2022-01-13 12:37:41,675] {dag.py:2396} INFO - Sync 1 DAGs
 [2022-01-13 12:37:41,688] {logging_mixin.py:109} INFO - [2022-01-13 12:37:41,688] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
 [2022-01-13 12:37:41,714] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.646 seconds
+[2022-01-13 14:38:51,102] {processor.py:163} INFO - Started process (PID=36639) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:38:51,105] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:38:51,106] {logging_mixin.py:109} INFO - [2022-01-13 14:38:51,106] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:38:51,565] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:38:51,585] {logging_mixin.py:109} INFO - [2022-01-13 14:38:51,585] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:38:51,613] {logging_mixin.py:109} INFO - [2022-01-13 14:38:51,613] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:38:51,641] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.542 seconds
+[2022-01-13 14:39:28,816] {processor.py:163} INFO - Started process (PID=37273) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:39:28,817] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:39:28,817] {logging_mixin.py:109} INFO - [2022-01-13 14:39:28,817] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:39:29,160] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:39:29,167] {logging_mixin.py:109} INFO - [2022-01-13 14:39:29,167] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:39:29,179] {logging_mixin.py:109} INFO - [2022-01-13 14:39:29,179] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:39:29,194] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.379 seconds
+[2022-01-13 14:40:04,524] {processor.py:163} INFO - Started process (PID=37699) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:04,532] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:40:04,533] {logging_mixin.py:109} INFO - [2022-01-13 14:40:04,533] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:04,885] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:04,890] {logging_mixin.py:109} INFO - [2022-01-13 14:40:04,890] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:40:04,897] {logging_mixin.py:109} INFO - [2022-01-13 14:40:04,896] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:40:04,911] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.388 seconds
+[2022-01-13 14:40:38,172] {processor.py:163} INFO - Started process (PID=37804) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:38,174] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:40:38,174] {logging_mixin.py:109} INFO - [2022-01-13 14:40:38,174] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:38,551] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:40:38,557] {logging_mixin.py:109} INFO - [2022-01-13 14:40:38,557] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:40:38,569] {logging_mixin.py:109} INFO - [2022-01-13 14:40:38,568] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:40:38,584] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.414 seconds
+[2022-01-13 14:41:11,842] {processor.py:163} INFO - Started process (PID=37919) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:11,843] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:41:11,843] {logging_mixin.py:109} INFO - [2022-01-13 14:41:11,843] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:12,276] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:12,286] {logging_mixin.py:109} INFO - [2022-01-13 14:41:12,286] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:41:12,301] {logging_mixin.py:109} INFO - [2022-01-13 14:41:12,301] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:41:12,334] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.494 seconds
+[2022-01-13 14:41:46,597] {processor.py:163} INFO - Started process (PID=38137) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:46,599] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:41:46,599] {logging_mixin.py:109} INFO - [2022-01-13 14:41:46,599] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:46,889] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:41:46,894] {logging_mixin.py:109} INFO - [2022-01-13 14:41:46,894] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:41:46,901] {logging_mixin.py:109} INFO - [2022-01-13 14:41:46,901] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:41:46,916] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.320 seconds
+[2022-01-13 14:42:19,568] {processor.py:163} INFO - Started process (PID=38190) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:19,570] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:42:19,571] {logging_mixin.py:109} INFO - [2022-01-13 14:42:19,571] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:19,856] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:19,861] {logging_mixin.py:109} INFO - [2022-01-13 14:42:19,861] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:42:19,868] {logging_mixin.py:109} INFO - [2022-01-13 14:42:19,868] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:42:19,882] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.316 seconds
+[2022-01-13 14:42:53,153] {processor.py:163} INFO - Started process (PID=38265) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:53,161] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:42:53,161] {logging_mixin.py:109} INFO - [2022-01-13 14:42:53,161] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:53,491] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:42:53,496] {logging_mixin.py:109} INFO - [2022-01-13 14:42:53,496] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:42:53,503] {logging_mixin.py:109} INFO - [2022-01-13 14:42:53,503] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:42:53,538] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.386 seconds
+[2022-01-13 14:43:26,937] {processor.py:163} INFO - Started process (PID=38324) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:43:26,938] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:43:26,939] {logging_mixin.py:109} INFO - [2022-01-13 14:43:26,939] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:43:27,304] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:43:27,316] {logging_mixin.py:109} INFO - [2022-01-13 14:43:27,316] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:43:27,333] {logging_mixin.py:109} INFO - [2022-01-13 14:43:27,332] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:43:27,358] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.423 seconds
+[2022-01-13 14:44:01,827] {processor.py:163} INFO - Started process (PID=38551) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:01,836] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:44:01,837] {logging_mixin.py:109} INFO - [2022-01-13 14:44:01,837] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:02,156] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:02,161] {logging_mixin.py:109} INFO - [2022-01-13 14:44:02,161] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:44:02,171] {logging_mixin.py:109} INFO - [2022-01-13 14:44:02,171] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:44:02,185] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.362 seconds
+[2022-01-13 14:44:35,560] {processor.py:163} INFO - Started process (PID=38634) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:35,568] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:44:35,568] {logging_mixin.py:109} INFO - [2022-01-13 14:44:35,568] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:35,972] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:44:35,977] {logging_mixin.py:109} INFO - [2022-01-13 14:44:35,977] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:44:35,984] {logging_mixin.py:109} INFO - [2022-01-13 14:44:35,984] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:44:36,008] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.450 seconds
+[2022-01-13 14:45:09,541] {processor.py:163} INFO - Started process (PID=38719) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:09,544] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:45:09,545] {logging_mixin.py:109} INFO - [2022-01-13 14:45:09,545] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:09,870] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:09,876] {logging_mixin.py:109} INFO - [2022-01-13 14:45:09,875] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:45:09,883] {logging_mixin.py:109} INFO - [2022-01-13 14:45:09,883] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:45:09,898] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.362 seconds
+[2022-01-13 14:45:42,823] {processor.py:163} INFO - Started process (PID=38829) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:42,831] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:45:42,832] {logging_mixin.py:109} INFO - [2022-01-13 14:45:42,832] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:43,136] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:45:43,142] {logging_mixin.py:109} INFO - [2022-01-13 14:45:43,142] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:45:43,149] {logging_mixin.py:109} INFO - [2022-01-13 14:45:43,149] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:45:43,164] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.343 seconds
+[2022-01-13 14:46:16,539] {processor.py:163} INFO - Started process (PID=38923) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:16,548] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:46:16,548] {logging_mixin.py:109} INFO - [2022-01-13 14:46:16,548] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:16,956] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:16,961] {logging_mixin.py:109} INFO - [2022-01-13 14:46:16,961] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:46:16,970] {logging_mixin.py:109} INFO - [2022-01-13 14:46:16,970] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:46:16,986] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.449 seconds
+[2022-01-13 14:46:50,548] {processor.py:163} INFO - Started process (PID=38997) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:50,556] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:46:50,557] {logging_mixin.py:109} INFO - [2022-01-13 14:46:50,557] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:51,045] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:46:51,055] {logging_mixin.py:109} INFO - [2022-01-13 14:46:51,055] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:46:51,073] {logging_mixin.py:109} INFO - [2022-01-13 14:46:51,073] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:46:51,098] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.552 seconds
+[2022-01-13 14:47:25,484] {processor.py:163} INFO - Started process (PID=39051) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:47:25,487] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:47:25,488] {logging_mixin.py:109} INFO - [2022-01-13 14:47:25,488] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:47:25,892] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:47:25,897] {logging_mixin.py:109} INFO - [2022-01-13 14:47:25,897] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:47:25,908] {logging_mixin.py:109} INFO - [2022-01-13 14:47:25,908] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:47:25,923] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.441 seconds
+[2022-01-13 14:48:00,340] {processor.py:163} INFO - Started process (PID=39127) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:00,348] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:48:00,348] {logging_mixin.py:109} INFO - [2022-01-13 14:48:00,348] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:00,647] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:00,652] {logging_mixin.py:109} INFO - [2022-01-13 14:48:00,652] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:48:00,662] {logging_mixin.py:109} INFO - [2022-01-13 14:48:00,662] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:48:00,679] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.342 seconds
+[2022-01-13 14:48:36,330] {processor.py:163} INFO - Started process (PID=39538) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:36,338] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:48:36,338] {logging_mixin.py:109} INFO - [2022-01-13 14:48:36,338] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:36,690] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:48:36,697] {logging_mixin.py:109} INFO - [2022-01-13 14:48:36,696] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:48:36,704] {logging_mixin.py:109} INFO - [2022-01-13 14:48:36,704] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:48:36,724] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.395 seconds
+[2022-01-13 14:49:09,648] {processor.py:163} INFO - Started process (PID=40097) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:09,649] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:49:09,649] {logging_mixin.py:109} INFO - [2022-01-13 14:49:09,649] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:10,026] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:10,031] {logging_mixin.py:109} INFO - [2022-01-13 14:49:10,031] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:49:10,038] {logging_mixin.py:109} INFO - [2022-01-13 14:49:10,038] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:49:10,056] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.409 seconds
+[2022-01-13 14:49:42,330] {processor.py:163} INFO - Started process (PID=40610) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:42,338] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:49:42,339] {logging_mixin.py:109} INFO - [2022-01-13 14:49:42,339] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:42,627] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:49:42,632] {logging_mixin.py:109} INFO - [2022-01-13 14:49:42,632] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:49:42,639] {logging_mixin.py:109} INFO - [2022-01-13 14:49:42,639] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:49:42,652] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.324 seconds
+[2022-01-13 14:50:16,020] {processor.py:163} INFO - Started process (PID=41065) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:16,028] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:50:16,029] {logging_mixin.py:109} INFO - [2022-01-13 14:50:16,029] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:16,465] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:16,470] {logging_mixin.py:109} INFO - [2022-01-13 14:50:16,470] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:50:16,478] {logging_mixin.py:109} INFO - [2022-01-13 14:50:16,478] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:50:16,493] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.474 seconds
+[2022-01-13 14:50:50,786] {processor.py:163} INFO - Started process (PID=41509) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:50,787] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:50:50,787] {logging_mixin.py:109} INFO - [2022-01-13 14:50:50,787] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:51,145] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:50:51,150] {logging_mixin.py:109} INFO - [2022-01-13 14:50:51,150] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:50:51,157] {logging_mixin.py:109} INFO - [2022-01-13 14:50:51,157] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:50:51,172] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.388 seconds
+[2022-01-13 14:51:24,464] {processor.py:163} INFO - Started process (PID=42217) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:24,465] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:51:24,465] {logging_mixin.py:109} INFO - [2022-01-13 14:51:24,465] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:24,780] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:24,787] {logging_mixin.py:109} INFO - [2022-01-13 14:51:24,787] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:51:24,793] {logging_mixin.py:109} INFO - [2022-01-13 14:51:24,793] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:51:24,807] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.347 seconds
+[2022-01-13 14:51:58,176] {processor.py:163} INFO - Started process (PID=42805) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:58,177] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:51:58,177] {logging_mixin.py:109} INFO - [2022-01-13 14:51:58,177] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:58,508] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:51:58,514] {logging_mixin.py:109} INFO - [2022-01-13 14:51:58,514] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:51:58,521] {logging_mixin.py:109} INFO - [2022-01-13 14:51:58,521] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:51:58,538] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.366 seconds
+[2022-01-13 14:52:31,851] {processor.py:163} INFO - Started process (PID=43458) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:52:31,852] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:52:31,852] {logging_mixin.py:109} INFO - [2022-01-13 14:52:31,852] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:52:32,303] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:52:32,309] {logging_mixin.py:109} INFO - [2022-01-13 14:52:32,309] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:52:32,317] {logging_mixin.py:109} INFO - [2022-01-13 14:52:32,316] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:52:32,337] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.487 seconds
+[2022-01-13 14:53:05,390] {processor.py:163} INFO - Started process (PID=44020) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:05,400] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:53:05,401] {logging_mixin.py:109} INFO - [2022-01-13 14:53:05,401] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:06,016] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:06,023] {logging_mixin.py:109} INFO - [2022-01-13 14:53:06,022] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:53:06,031] {logging_mixin.py:109} INFO - [2022-01-13 14:53:06,031] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:53:06,046] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.661 seconds
+[2022-01-13 14:53:40,887] {processor.py:163} INFO - Started process (PID=44666) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:40,890] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:53:40,891] {logging_mixin.py:109} INFO - [2022-01-13 14:53:40,891] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:41,281] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:53:41,287] {logging_mixin.py:109} INFO - [2022-01-13 14:53:41,287] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:53:41,298] {logging_mixin.py:109} INFO - [2022-01-13 14:53:41,298] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:53:41,314] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.430 seconds
+[2022-01-13 14:54:14,296] {processor.py:163} INFO - Started process (PID=45076) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:14,298] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:54:14,299] {logging_mixin.py:109} INFO - [2022-01-13 14:54:14,299] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:14,588] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:14,594] {logging_mixin.py:109} INFO - [2022-01-13 14:54:14,594] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:54:14,601] {logging_mixin.py:109} INFO - [2022-01-13 14:54:14,601] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:54:14,615] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.321 seconds
+[2022-01-13 14:54:47,396] {processor.py:163} INFO - Started process (PID=45351) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:47,398] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:54:47,399] {logging_mixin.py:109} INFO - [2022-01-13 14:54:47,399] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:47,687] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:54:47,691] {logging_mixin.py:109} INFO - [2022-01-13 14:54:47,691] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:54:47,698] {logging_mixin.py:109} INFO - [2022-01-13 14:54:47,698] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:54:47,712] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.319 seconds
+[2022-01-13 14:55:21,482] {processor.py:163} INFO - Started process (PID=45606) to work on /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:55:21,492] {processor.py:642} INFO - Processing file /home/gianghoatran/MyCode/airflow/dags/my_dag.py for tasks to queue
+[2022-01-13 14:55:21,493] {logging_mixin.py:109} INFO - [2022-01-13 14:55:21,493] {dagbag.py:500} INFO - Filling up the DagBag from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:55:21,818] {processor.py:654} INFO - DAG(s) dict_keys(['my_dag']) retrieved from /home/gianghoatran/MyCode/airflow/dags/my_dag.py
+[2022-01-13 14:55:21,823] {logging_mixin.py:109} INFO - [2022-01-13 14:55:21,823] {dag.py:2396} INFO - Sync 1 DAGs
+[2022-01-13 14:55:21,829] {logging_mixin.py:109} INFO - [2022-01-13 14:55:21,829] {dag.py:2935} INFO - Setting next_dagrun for my_dag to 2022-01-13T04:34:30.714488+00:00
+[2022-01-13 14:55:21,844] {processor.py:171} INFO - Processing /home/gianghoatran/MyCode/airflow/dags/my_dag.py took 0.366 seconds

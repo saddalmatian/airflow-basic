@@ -9,16 +9,10 @@ import json
 
 def processing_user_extracted(ti):
     users = ti.xcom_pull(task_ids=['extracting_user'])
-    processed_user = json_normalize(
-        {
-            'PK': users[0]['PK'],
-            'SK': users[0]['SK'],
-            'Type': users[0]['Type'],
-            'Username': users[0]['Username'],
-            'CreatedAt': users[0]['CreatedAt'],
-        }
-    )
-    processed_user.to_csv('test.csv', index=None, header=False)
+    processed_user = json.dumps(users[0], indent=4, sort_keys=True)
+    f = open('user_information.json', 'w')
+    f.write(processed_user)
+    f.close
 
 
 with DAG(
