@@ -33,6 +33,8 @@ python app/db/utils.py
 -> Create a user at http://localhost:8000/docs/, this will return an api at http://localhost:8000/users/your-user \
 Example: http://localhost:8000/users/VuNgocLong
 
+-> You should login first with username/password is admin/admin in order to get JWT, enter it in HTTPBearer to use API call !!!
+
 -> Inside dags/my_dag, change end_point in each operator user/GiangHoaTran into your user you created
 
 -> If you want to test a task inside my_dag (example: is_api_available)\
