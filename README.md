@@ -28,11 +28,11 @@ airflowl scheduler
 -> Run uvicorn for fastapi\
 uvicorn app.main:app --reload (http://localhost:8000/)
 
--> Create a user at http://localhost:8000/docs/, this will return an api at http://localhost:8000/users/your-user \
-Example: http://localhost:8000/users/VuNgocLong
-
 -> Uncomment create table function in app/db/utils.py to create a TestTable in DynamoDB then run below command\
 python app/db/utils.py
+
+-> Create a user at http://localhost:8000/docs/, this will return an api at http://localhost:8000/users/your-user \
+Example: http://localhost:8000/users/VuNgocLong
 
 -> Inside dags/my_dag, change end_point in each operator user/GiangHoaTran into your user you created
 
