@@ -12,7 +12,7 @@ is_api_available >> extracting_user >> processing_user
 -------------------------------------------------------------------
 -> Everytime you run airflow command, it will init a workplace named airflow, you can change the workplace's place inside bashrc by:\
 sudo nano ~/.bashrc\
-add the line below inside the bashrc\
+- then add the line below inside the bashrc\
 export AIRFLOW_HOME=/your-destination (Example: export AIRFLOW_HOME=/home/MyCode/airflow)
 
 -> Enter virtual environment whenever you open a new terminal\
